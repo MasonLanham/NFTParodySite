@@ -1,25 +1,35 @@
-/* 
-Challenge:
-1. Create a body selector.
-2. Set the base font size and text color to 
-   the values given on the slide.
-3. Bring in "Roboto" from Google Fonts and 
-   set it as the default font. Make sure 
-   browsers will fall back on a sans-serif 
-   font if Roboto is unavailable.
-4. Override HTML's default margin.
-*/
- 
- 
- body{
-     font-size: 16px;
-     color: #2b283a;
-     font-family: 'Roboto', sans-serif;
-     margin: 0;
- }
- 
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
 
- 
- 
+header{
+    background-color: #5f29a3;
+    padding: 45px 0;
+}
 
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
 
+h2{
+    margin-top: 0;
+}
+
+h3{
+    color: #d0aaff;
+    font-size: 20px;
+    margin:0;
+}
+
+section{
+    padding: 45px 0;
+}
+
+.main-image{
+    width: 100%;
+}
